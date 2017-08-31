@@ -1,0 +1,51 @@
+
+#include <stdio.h>
+
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+struct proveedores{
+	char nombre[30];
+	int telefono[10];
+	char direccion[30];
+	//struct producto;
+	
+}pro,*p_pro=&pro;
+
+
+
+struct producto{
+	int cantidad;
+	int precio;
+	int importe;
+	
+}producto[100],*p_producto=&producto[0];
+
+int main() 
+	
+{
+	
+	int i,n;
+	struct pro;
+	
+	printf("ingresar nombre del proveedor: ");
+	scanf("%s",p_pro->nombre);
+	fflush(stdin);
+	printf("ingresar el telefono del proveedor: ");
+	scanf("%d",p_pro->telefono,10);
+	printf("ingresar la direccion del proveedor: ");
+	scanf("%s",p_pro->direccion,30);
+	
+	printf("Cuantos productos va a ingresar: ");
+	scanf("%d",&n);
+	
+	for(i=0;i<=n;i++)
+	{
+		printf("Ingresar la cantidad vendida: ");
+		scanf("%d",(p_producto+i)-> cantidad);
+		printf("Ingresar el precio unitario: ");
+		scanf("%d",(p_producto+i)-> precio);
+	}
+	
+	return 0;
+}
