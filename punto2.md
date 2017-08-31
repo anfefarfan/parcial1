@@ -1,5 +1,10 @@
 #include <iostream>
 #include <stdio.h>
+	
+	
+//grupo
+// Andres Felipe Farfan Hernandez
+// Ricardo Villalobos
 
 int main() {
 	
