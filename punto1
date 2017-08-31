@@ -1,8 +1,10 @@
 
 #include <stdio.h>
 
+//grupo
+// Andres Felipe Farfan Hernandez
+// Ricardo Villalobos
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 struct proveedores{
 	char nombre[30];
